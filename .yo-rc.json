@@ -1,0 +1,19 @@
+{
+  "generator-north": {
+    "project": "DevOps Camp",
+    "slug": "devops-camp",
+    "runner": "Gulp",
+    "server": true,
+    "folder": "devops-camp/"
+  },
+  "generator-sass": {
+    "gems": {
+      "sass": "~>3.4",
+      "compass": "~>1.0",
+      "breakpoint": "~>2.5",
+      "singularitygs": "~>1.4",
+      "toolkit": "~>2.6",
+      "modular-scale": "~>2.0"
+    }
+  }
+}
