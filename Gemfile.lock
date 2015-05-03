@@ -37,9 +37,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  breakpoint (~> 2.5)
-  compass (~> 1.0)
-  modular-scale (~> 2.0)
-  sass (~> 3.4)
-  singularitygs (~> 1.4)
-  toolkit (~> 2.6)
+  breakpoint (~> 2.5.0)
+  compass (~> 1.0.3)
+  modular-scale (~> 2.0.6)
+  sass (~> 3.4.13)
+  singularitygs (~> 1.6.2)
+  toolkit (~> 2.9.0)
