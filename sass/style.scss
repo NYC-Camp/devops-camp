@@ -38,7 +38,15 @@ $browser-minimum-versions: (
 
 //////////////////////////////
 // COMPONENTS
+@import "partials/components/base";
+@import "partials/components/navigation";
 
+@import "partials/components/sections/header";
+
+@import "partials/components/sections/venue";
+
+
+@import "partials/components/sections/footer";
 //////////////////////////////
 
 //////////////////////////////

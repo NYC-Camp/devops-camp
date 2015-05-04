@@ -1,0 +1,27 @@
+////////////////
+//  Navigation
+////////////////
+
+nav {
+  text-align: center;
+  margin-bottom: 72px;
+  ul {
+    @include clearfix;
+    text-align: center;
+    li {
+      @include breakpoint($our-big-break) {
+        display: inline-block;
+      }
+      padding: 0 2%;
+      text-align: center;
+      a {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.primary-menu-active {
+  height: auto !important;
+  overflow: visible !important;
+}
