@@ -270,6 +270,11 @@ nav {
   text-align: center;
   margin-bottom: 72px;
 }
+@media (max-width: 49.9375em) {
+  nav {
+    margin-top: 52px;
+  }
+}
 nav ul {
   text-align: center;
 }
@@ -282,6 +287,12 @@ nav ul li {
   padding: 0 2%;
   text-align: center;
 }
+@media (max-width: 49.9375em) {
+  nav ul li {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
 @media (min-width: 50em) {
   nav ul li {
     display: inline-block;
@@ -290,6 +301,7 @@ nav ul li {
 nav ul li a {
   text-align: center;
   color: #eef6fa;
+  font-size: 120%;
 }
 
 .primary-menu-active {
@@ -298,6 +310,7 @@ nav ul li a {
 }
 
 header {
+  position: relative;
   background-color: #5ea9d0;
   color: white(#5ea9d0);
   padding-top: 20px;
@@ -306,6 +319,55 @@ header {
 header .header--event-info {
   text-align: center;
   color: #1c323e;
+}
+
+.header--navigation-toggle {
+  display: inline-block;
+  margin-right: 9px;
+  color: #eef6fa;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 33px;
+}
+@media (min-width: 50em) {
+  .header--navigation-toggle {
+    display: none;
+  }
+}
+.header--navigation-toggle .lettuce,
+.header--navigation-toggle .tomato,
+.header--navigation-toggle .beef {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+  transition-property: all;
+  width: 96%;
+  position: relative;
+  height: 3px;
+  background-color: #eef6fa;
+  margin: 4px auto;
+}
+
+.lettuce-active {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 7px;
+}
+
+.tomato-active {
+  opacity: 0;
+}
+
+.beef-active {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: -7px;
 }
 
 @media (max-width: 49.9375em) {

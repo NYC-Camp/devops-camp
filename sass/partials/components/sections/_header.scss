@@ -3,6 +3,7 @@
 ////////////
 
 header {
+  position: relative;
   background-color: map-get($color-me-badd, primary);
   color: $white;
   padding: {
@@ -13,4 +14,46 @@ header {
     text-align: center;
     color: shade(map-get($color-me-badd, primary), 70%);
   }
+}
+
+.header--navigation-toggle {
+  display: inline-block;
+  margin-right: 9px;
+  @include breakpoint($our-big-break) {
+    display: none;
+  }
+  color: tint(map-get($color-me-badd, primary), 90%);
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 33px;
+  .lettuce,
+  .tomato,
+  .beef {
+    @include transition(all 0.3s ease-in-out);
+    @include border-radius(2px);
+    transition-property: all;
+    width: 96%;
+    position: relative;
+    height: 3px;
+    background-color: tint(map-get($color-me-badd, primary), 90%);
+    margin: 4px auto;
+  }
+}
+
+.lettuce-active {
+  @include transform(rotate(45deg));
+  top: 7px;
+}
+
+.tomato-active {
+  opacity: 0;
+}
+
+.beef-active {
+  @include transform(rotate(-45deg));
+  top: -7px;
 }

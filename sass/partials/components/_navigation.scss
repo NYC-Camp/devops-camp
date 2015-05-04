@@ -3,12 +3,21 @@
 ////////////////
 
 nav {
+  @include breakpoint(max-width ($our-big-break - 1)) {
+    margin-top: 52px;
+  }
   text-align: center;
   margin-bottom: 72px;
   ul {
     @include clearfix;
     text-align: center;
     li {
+      @include breakpoint(max-width ($our-big-break - 1)) {
+        padding: {
+          top: 14px;
+          bottom: 14px;
+        }
+      }
       @include breakpoint($our-big-break) {
         display: inline-block;
       }
@@ -16,7 +25,8 @@ nav {
       text-align: center;
       a {
         text-align: center;
-        color: tint(map-get($color-me-badd, primary), 90%);;
+        color: tint(map-get($color-me-badd, primary), 90%);
+        font-size: 120%;
       }
     }
   }
