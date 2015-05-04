@@ -170,7 +170,7 @@ header .header--event-info {
   }
 }
 #venue .venue--map #map-canvas {
-  height: 200px;
+  height: 340px;
   width: 100%;
 }
 @media (min-width: 50em) {
