@@ -3,11 +3,14 @@
 ////////////
 
 header {
+  background-color: map-get($color-me-badd, primary);
+  color: $white;
   padding: {
     top: 20px;
     bottom: 40px;
   }
   .header--event-info {
     text-align: center;
+    color: shade(map-get($color-me-badd, primary), 70%);
   }
 }

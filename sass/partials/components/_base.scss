@@ -6,6 +6,49 @@
 @include add-grid(12);
 @include add-gutter(1/3);
 
+* {
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  @extend %base--html;
+}
+
+body {
+  @extend %base--body;
+}
+
+*::selection {
+  @extend %base--selection;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    @extend %base--header;
+    @extend %base--h#{$i};
+  }
+}
+
+a {
+ @extend %base--a;
+}
+
+em {
+  @extend %base--em;
+}
+
+strong {
+  @extend %base--strong;
+}
+
+p {
+  @extend %base--p;
+}
+
+
+img {
+  @extend %base--image;
+}
 
 header,
 main,
@@ -13,16 +56,12 @@ footer {
   @include grid-span(12, 1);
 }
 
-h2 {
-
-}
-
 .header--inner-wrapper,
 .section--inner-wrapper,
 .footer--inner-wrapper {
   @include clearfix;
   width: 90%;
-  max-width: 1000px;
+  max-width: $max-width;
   margin: 0 auto;
 }
 
@@ -44,12 +83,6 @@ h2 {
   }
 }
 
-main {
-  section {
-    min-height: 200px;
-  }
-}
-
-body {
-  //display: none;
+section {
+  min-height: 240px;
 }

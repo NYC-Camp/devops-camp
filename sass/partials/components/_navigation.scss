@@ -16,6 +16,7 @@ nav {
       text-align: center;
       a {
         text-align: center;
+        color: tint(map-get($color-me-badd, primary), 90%);;
       }
     }
   }

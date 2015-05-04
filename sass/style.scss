@@ -34,6 +34,7 @@ $browser-minimum-versions: (
 @import "partials/global/functions";
 @import "partials/global/mixins";
 @import "partials/global/extends";
+@import "partials/global/fonts";
 //////////////////////////////
 
 //////////////////////////////
@@ -44,6 +45,7 @@ $browser-minimum-versions: (
 @import "partials/components/sections/header";
 
 @import "partials/components/sections/venue";
+@import "partials/components/sections/registration";
 
 
 @import "partials/components/sections/footer";
