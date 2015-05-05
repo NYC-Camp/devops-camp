@@ -8,7 +8,7 @@
   }
   position: fixed;
   bottom: 8px;
-  right: 3px;
+  right: -8px;
   @include breakpoint($our-big-break) {
     bottom: 16px;
     right: 10px;
