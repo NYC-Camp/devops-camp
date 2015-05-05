@@ -354,10 +354,13 @@ header .header--event-info {
   text-align: center;
   background-color: #00467a;
 }
-@media (max-width: 49.9375em) {
+header .header--event-info .DevOps-camp--logo {
+  width: 100px;
+  margin: 0 auto;
+}
+@media (min-width: 50em) {
   header .header--event-info .DevOps-camp--logo {
-    width: 100px;
-    margin: 0 auto;
+    width: 160px;
   }
 }
 header .header--event-info h1,

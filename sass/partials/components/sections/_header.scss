@@ -17,9 +17,10 @@ header {
     text-align: center;
     background-color: map-get($color-me-badd, primary);
     .DevOps-camp--logo {
-      @include breakpoint(max-width ($our-big-break - 1)) {
-        width: 100px;
-        margin: 0 auto;
+      width: 100px;
+      margin: 0 auto;
+      @include breakpoint($our-big-break) {
+        width: 160px;
       }
     }
     h1,
