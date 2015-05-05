@@ -48,7 +48,7 @@ header {
     width: 96%;
     position: relative;
     height: 3px;
-    background-color: $typography-light;
+    background-color: tint($typography-light, 100%);
     margin: 4px auto;
   }
 }
