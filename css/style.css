@@ -82,7 +82,7 @@ html {
 
 body {
   background: white(#5ea9d0);
-  color: black(#5ea9d0);
+  color: #1c323e;
   font-family: "pt", "PT Sans", Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
   font-weight: normal;
 }
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   line-height: 1em;
   word-wrap: break-word;
-  color: secondary(#5ea9d0);
+  color: #1c323e;
   border: none;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -268,12 +268,7 @@ section {
 
 nav {
   text-align: center;
-  margin-bottom: 72px;
-}
-@media (max-width: 49.9375em) {
-  nav {
-    margin-top: 52px;
-  }
+  margin-bottom: 32px;
 }
 nav ul {
   text-align: center;
@@ -282,6 +277,12 @@ nav ul:after {
   content: "";
   display: table;
   clear: both;
+}
+@media (max-width: 49.9375em) {
+  nav ul {
+    height: 0;
+    overflow: hidden;
+  }
 }
 nav ul li {
   padding: 0 2%;
@@ -304,7 +305,8 @@ nav ul li a {
   font-size: 120%;
 }
 
-.primary-menu-active {
+.nav-active {
+  margin-top: 30px;
   height: auto !important;
   overflow: visible !important;
 }
@@ -312,9 +314,8 @@ nav ul li a {
 header {
   position: relative;
   background-color: #5ea9d0;
-  color: white(#5ea9d0);
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 header .header--event-info {
   text-align: center;
@@ -327,7 +328,7 @@ header .header--event-info {
   color: #eef6fa;
   position: absolute;
   right: 15px;
-  top: 20px;
+  top: 12px;
   width: 25px;
   height: 25px;
   text-align: center;
@@ -405,8 +406,8 @@ header .header--event-info {
 footer {
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 footer .footer--inner-wrapper div:first-of-type {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }

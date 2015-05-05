@@ -33,4 +33,6 @@ $secondary: secondary(map-get($color-me-badd, primary));
 $background: $white;
 $foreground: $black;
 
+$typography-light: tint(map-get($color-me-badd, primary), 90%);
+$typography-dark: shade(map-get($color-me-badd, primary), 70%);
 /////////////////////////////////////////////////////////////////////////////////////

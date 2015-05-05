@@ -13,7 +13,7 @@
 
 %base--body {
   background: $background;
-  color: $foreground;
+  color: $typography-dark;
   font-family: 'pt', $sans;
   font-weight: normal;
 }
@@ -55,7 +55,7 @@
   width: 100%;
   line-height: 1em;
   word-wrap: break-word;
-  color: $secondary;
+  color: $typography-dark;
   border: none;
   a {
     background: none;

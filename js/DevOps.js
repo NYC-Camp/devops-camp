@@ -19,6 +19,14 @@
       }
     });
 
+    // Adds header nav display toggle.
+    $('.header--navigation-toggle').click(function() {
+      $('.lettuce').toggleClass('lettuce-active');
+      $('.tomato').toggleClass('tomato-active');
+      $('.beef').toggleClass('beef-active');
+      $('nav ul').toggleClass('nav-active');
+    });
+
   });
 
 
