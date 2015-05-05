@@ -340,7 +340,12 @@ header {
   position: relative;
   background-color: #00467a;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
+}
+@media (min-width: 50em) {
+  header {
+    padding-bottom: 80px;
+  }
 }
 header .header--event-info {
   text-align: center;
