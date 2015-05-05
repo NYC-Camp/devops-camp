@@ -30,10 +30,12 @@
 }
 
 %base--a {
+  display: inline-block;
   text-decoration: none;
-  color: map-get($color-me-badd, primary);
+  color: tint(map-get($color-me-badd, primary), 30%);
   &:hover {
-    color: $secondary;
+    color: tint(map-get($color-me-badd, primary), 20%);
+    text-decoration: underline;
   }
 }
 
@@ -95,11 +97,12 @@
 
 %base--strong {
   font-weight: bold;
+  display: inline-block;
 }
 
 %base--p {
   margin: 1rem auto;
-  max-width: 702px;
+  max-width: 680px;
 }
 
 %base--small {

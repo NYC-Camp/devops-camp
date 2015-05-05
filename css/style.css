@@ -88,11 +88,13 @@ body {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
-  color: #00467a;
+  color: #4c7da1;
 }
 a:hover {
-  color: secondary(#00467a);
+  color: #336b94;
+  text-decoration: underline;
 }
 
 h1 {
@@ -144,11 +146,12 @@ em {
 
 strong {
   font-weight: bold;
+  display: inline-block;
 }
 
 p {
   margin: 1rem auto;
-  max-width: 702px;
+  max-width: 680px;
 }
 
 img {
@@ -213,6 +216,7 @@ img {
 }
 * {
   text-rendering: optimizeLegibility;
+  outline: none;
 }
 
 sup {
@@ -434,6 +438,7 @@ header .header--event-info h1 {
   background-color: #336b94;
 }
 .registration button a {
+  display: inline;
   font-size: 1.4rem;
   color: #f2f5f8;
   padding-top: 10px;

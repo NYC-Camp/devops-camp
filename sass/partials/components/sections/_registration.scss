@@ -20,6 +20,7 @@
       background-color: tint(map-get($color-me-badd, primary), 20%);
     }
     a {
+      display: inline;
       font-size: 1.4rem;
       color: $typography-light;
       padding: {
