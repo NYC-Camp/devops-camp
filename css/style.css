@@ -81,23 +81,23 @@ html {
 }
 
 body {
-  background: white(#5ea9d0);
-  color: #1c323e;
+  background: white(#00467a);
+  color: #003861;
   font-family: "pt", "PT Sans", Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
   font-weight: normal;
 }
 
 *::selection {
   text-shadow: none;
-  background: rgba(94, 169, 208, 0.2);
+  background: rgba(0, 70, 122, 0.2);
 }
 
 a {
   text-decoration: none;
-  color: #5ea9d0;
+  color: #00467a;
 }
 a:hover {
-  color: secondary(#5ea9d0);
+  color: secondary(#00467a);
 }
 
 h1 {
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   line-height: 1em;
   word-wrap: break-word;
-  color: #1c323e;
+  color: #003861;
   border: none;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -219,6 +219,14 @@ img {
   text-rendering: optimizeLegibility;
 }
 
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 60%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
 header,
 main,
 footer {
@@ -301,7 +309,7 @@ nav ul li {
 }
 nav ul li a {
   text-align: center;
-  color: #eef6fa;
+  color: #f2f5f8;
   font-size: 120%;
 }
 
@@ -313,19 +321,31 @@ nav ul li a {
 
 header {
   position: relative;
-  background-color: #5ea9d0;
+  background-color: #00467a;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 header .header--event-info {
   text-align: center;
-  color: #1c323e;
+}
+header .header--event-info h1,
+header .header--event-info h2 {
+  color: #f2f5f8;
+  margin: 0;
+}
+header .header--event-info h1 {
+  font-size: 4rem;
+}
+@media (min-width: 50em) {
+  header .header--event-info h1 {
+    font-size: 4.6rem;
+  }
 }
 
 .header--navigation-toggle {
   display: inline-block;
   margin-right: 9px;
-  color: #eef6fa;
+  color: #e5ecf1;
   position: absolute;
   right: 15px;
   top: 12px;
@@ -349,7 +369,7 @@ header .header--event-info {
   width: 96%;
   position: relative;
   height: 3px;
-  background-color: #eef6fa;
+  background-color: #f2f5f8;
   margin: 4px auto;
 }
 
@@ -402,12 +422,33 @@ header .header--event-info {
 .registration {
   text-align: center;
 }
+.registration button {
+  border-radius: 3px;
+  box-shadow: #ccdae4 1px 1px 1px;
+  background-color: #00467a;
+  border: none;
+  padding-top: 10px;
+  padding-right: 4px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+}
+.registration button:hover {
+  background-color: #336b94;
+}
+.registration button a {
+  font-size: 1.4rem;
+  color: #f2f5f8;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+.registration button a:hover {
+  color: #e5e8eb;
+}
 
 footer {
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 16px;
-}
-footer .footer--inner-wrapper div:first-of-type {
-  margin-bottom: 4px;
+  padding-bottom: 4px;
 }

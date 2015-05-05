@@ -22,7 +22,7 @@ $mono: 'scp', 'Source Code Pro', Consolas, Monaco, 'Andale Mono', monospace;
 /////////////////////////////////////////////////////////////////////////////////////
 
 $color-me-badd: (
-  primary: #5ea9d0,
+  primary: shade(#0075CC, 40%),
   blue: #5091CD
 );
 
@@ -33,6 +33,6 @@ $secondary: secondary(map-get($color-me-badd, primary));
 $background: $white;
 $foreground: $black;
 
-$typography-light: tint(map-get($color-me-badd, primary), 90%);
-$typography-dark: shade(map-get($color-me-badd, primary), 70%);
+$typography-light: tint(map-get($color-me-badd, primary), 95%);
+$typography-dark: shade(map-get($color-me-badd, primary), 20%);
 /////////////////////////////////////////////////////////////////////////////////////

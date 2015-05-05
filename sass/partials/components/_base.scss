@@ -50,6 +50,14 @@ img {
   @extend %base--image;
 }
 
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 60%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
 header,
 main,
 footer {
