@@ -276,7 +276,9 @@ section {
 
 nav {
   text-align: center;
+  margin-right: auto;
   margin-bottom: 32px;
+  margin-left: auto;
 }
 @media (min-width: 50em) {
   nav {

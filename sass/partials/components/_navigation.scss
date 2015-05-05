@@ -4,7 +4,11 @@
 
 nav {
   text-align: center;
-  margin-bottom: 32px;
+  margin: {
+    right: auto;
+    bottom: 32px;
+    left: auto;
+  }
   @include breakpoint($our-big-break) {
     margin-bottom: 72px;
   }
