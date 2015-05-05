@@ -16,6 +16,12 @@ header {
     position: relative;
     text-align: center;
     background-color: map-get($color-me-badd, primary);
+    .DevOps-camp--logo {
+      @include breakpoint(max-width ($our-big-break - 1)) {
+        width: 100px;
+        margin: 0 auto;
+      }
+    }
     h1,
     h2 {
       color: tint($typography-light, 100%);
