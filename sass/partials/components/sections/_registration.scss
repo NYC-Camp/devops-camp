@@ -7,7 +7,7 @@
   button {
     @include border-radius(3px);
     @include box-shadow(tint(map-get($color-me-badd, primary), 80%) 1px 1px 1px);
-    background-color: map-get($color-me-badd, primary);
+    background-color: tint(map-get($color-me-badd, primary), 26%);
     border: none;
     padding: {
       top: 10px;
@@ -15,6 +15,7 @@
       bottom: 10px;
       left: 4px;
     }
+    cursor: pointer;
     &:hover {
       background-color: tint(map-get($color-me-badd, primary), 20%);
     }
@@ -28,7 +29,7 @@
         left: 30px;
       }
       &:hover {
-        color: shade($typography-light, 5%);
+        color: shade($typography-light, 2%);
       }
     }
   }
