@@ -471,6 +471,33 @@ header .header--event-info h1 {
   color: #b8c9d7;
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 8px;
+  right: 3px;
+  background: none;
+  margin: 0;
+  width: 40px;
+  height: 48px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+}
+@media (max-width: 49.9375em) {
+  #back-to-top {
+    opacity: 0.3;
+  }
+}
+@media (min-width: 50em) {
+  #back-to-top {
+    bottom: 16px;
+    right: 10px;
+  }
+}
+#back-to-top i {
+  font-size: 2.5rem;
+}
+
 footer {
   text-align: center;
   padding-top: 30px;
