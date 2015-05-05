@@ -414,6 +414,11 @@ header .header--event-info h1 {
 }
 
 @media (max-width: 49.9375em) {
+  #venue h3 {
+    text-align: center;
+  }
+}
+@media (max-width: 49.9375em) {
   #venue .venue--map {
     margin-bottom: 20px;
   }
