@@ -14,9 +14,10 @@ nav {
   }
   ul {
     @include clearfix;
+    @include transition(all 0.5s ease-in-out);
     text-align: center;
     @include breakpoint(max-width ($our-big-break - 1)) {
-      height: 0;
+      max-height: 0;
       overflow: hidden;
     }
     li {
@@ -50,6 +51,6 @@ nav {
 
 .nav-active {
   margin-top: 30px;
-  height: auto !important;
+  max-height: 300px !important;
   overflow: visible !important;
 }

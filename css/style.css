@@ -286,6 +286,8 @@ nav {
   }
 }
 nav ul {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   text-align: center;
 }
 nav ul:after {
@@ -295,7 +297,7 @@ nav ul:after {
 }
 @media (max-width: 49.9375em) {
   nav ul {
-    height: 0;
+    max-height: 0;
     overflow: hidden;
   }
 }
@@ -332,7 +334,7 @@ nav ul li a:hover {
 
 .nav-active {
   margin-top: 30px;
-  height: auto !important;
+  max-height: 300px !important;
   overflow: visible !important;
 }
 
@@ -348,7 +350,9 @@ header {
   }
 }
 header .header--event-info {
+  position: relative;
   text-align: center;
+  background-color: #00467a;
 }
 header .header--event-info h1,
 header .header--event-info h2 {
