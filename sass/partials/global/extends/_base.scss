@@ -34,7 +34,7 @@
   text-decoration: none;
   color: tint(map-get($color-me-badd, primary), 30%);
   &:hover {
-    color: tint(map-get($color-me-badd, primary), 20%);
+    color: tint(map-get($color-me-badd, primary), 10%);
     text-decoration: underline;
   }
 }

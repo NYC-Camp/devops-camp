@@ -13,7 +13,7 @@ header {
     text-align: center;
     h1,
     h2 {
-      color: $typography-light;
+      color: tint($typography-light, 100%);
       margin: 0;
     }
     h1 {
