@@ -375,7 +375,7 @@ header .header--event-info h2 {
   margin: 0;
 }
 header .header--event-info h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 @media (min-width: 50em) {
   header .header--event-info h1 {

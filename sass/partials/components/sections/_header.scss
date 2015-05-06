@@ -29,7 +29,7 @@ header {
       margin: 0;
     }
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       @include breakpoint($our-big-break) {
         font-size: 4.6rem;
       }
