@@ -384,11 +384,13 @@ header .header--event-info h1 {
 }
 
 .header--navigation-toggle {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: inline-block;
   margin-right: 9px;
   color: #e5ecf1;
   position: absolute;
-  right: 15px;
+  right: 8px;
   top: 12px;
   width: 25px;
   height: 25px;
@@ -412,6 +414,10 @@ header .header--event-info h1 {
   height: 3px;
   background-color: white;
   margin: 4px auto;
+}
+
+.header--navigation-toggle--active {
+  right: 4px;
 }
 
 .lettuce-active {

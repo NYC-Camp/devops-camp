@@ -21,6 +21,7 @@
 
     // Adds header nav display toggle.
     $('.header--navigation-toggle').click(function() {
+      $(this).toggleClass('header--navigation-toggle--active');
       $('.lettuce').toggleClass('lettuce-active');
       $('.tomato').toggleClass('tomato-active');
       $('.beef').toggleClass('beef-active');
