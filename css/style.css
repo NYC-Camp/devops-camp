@@ -439,23 +439,18 @@ header .header--event-info h1 {
     text-align: center;
   }
 }
-@media (max-width: 49.9375em) {
-  #venue .venue--image {
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 50em) {
-  #venue .venue--image {
-    width: 38.88889%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
-}
 @media (min-width: 50em) {
   #venue .venue--venue--info {
     width: 55.55556%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+@media (min-width: 87.5em) {
+  #venue .venue--venue--info {
+    width: 47.61905%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
@@ -473,6 +468,29 @@ header .header--event-info h1 {
 }
 #venue .venue--venue--info .get-directions--wrapper a {
   font-size: 1.25rem;
+}
+@media (max-width: 49.9375em) {
+  #venue .venue--image {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 50em) {
+  #venue .venue--image {
+    width: 38.88889%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 87.5em) {
+  #venue .venue--image {
+    width: 47.61905%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
 }
 
 .registration {
