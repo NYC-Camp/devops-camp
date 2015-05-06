@@ -463,7 +463,13 @@ header .header--event-info h1 {
   }
 }
 #venue .venue--venue--info .get-directions--wrapper {
-  margin-top: 10px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+@media (max-width: 49.9375em) {
+  #venue .venue--venue--info .get-directions--wrapper {
+    text-align: center;
+  }
 }
 #venue .venue--venue--info .get-directions--wrapper a {
   font-size: 1.25rem;
