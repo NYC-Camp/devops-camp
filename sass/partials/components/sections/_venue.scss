@@ -8,21 +8,23 @@
       text-align: center;
     }
   }
-  .venue--map {
+  .venue--image {
     @include breakpoint(max-width ($our-big-break - 1)) {
       margin-bottom: 20px;
     }
     @include breakpoint($our-big-break) {
       @include grid-span(1, 2, (1 1), $gutter: 0.1);
     }
-    #map-canvas {
-      height: 340px;
-      width: 100%;
-    }
   }
-  .venue--map--info {
+  .venue--venue--info {
     @include breakpoint($our-big-break) {
       @include grid-span(1, 1, (1 1), $gutter: 0.1);
+    }
+    .get-directions--wrapper {
+      margin-top: 10px;
+      a {
+        font-size: 1.25rem;
+      }
     }
   }
 }

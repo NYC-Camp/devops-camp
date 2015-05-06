@@ -46,11 +46,6 @@ p {
   @extend %base--p;
 }
 
-
-img {
-  @extend %base--image;
-}
-
 sup {
   position: relative;
   top: -0.5em;
