@@ -523,6 +523,27 @@ header .header--event-info h1 {
   color: #b8c9d7;
 }
 
+.speaker--wrapper {
+  text-align: center;
+}
+.speaker--wrapper .speaker-avatar {
+  border-radius: 300px;
+  display: block;
+  margin: .5em auto;
+  max-width: 140px;
+}
+@media (min-width: 62.5em) {
+  .speaker--wrapper .speaker-avatar {
+    max-width: 200px;
+  }
+}
+.speaker--wrapper h4 {
+  margin-bottom: 10px;
+}
+.speaker--wrapper p {
+  margin: 0px auto;
+}
+
 .our-generous-friends .section--inner-wrapper {
   max-width: 800px;
   text-align: center;
