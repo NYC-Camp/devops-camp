@@ -525,6 +525,7 @@ header .header--event-info h1 {
 
 .speaker--wrapper {
   text-align: center;
+  margin-bottom: 26px;
 }
 .speaker--wrapper .speaker-avatar {
   border-radius: 300px;
