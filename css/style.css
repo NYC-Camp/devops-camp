@@ -527,6 +527,22 @@ header .header--event-info h1 {
   text-align: center;
   margin-bottom: 26px;
 }
+@media (min-width: 43.75em) {
+  .speaker--wrapper:nth-of-type(odd) {
+    width: 41.15226%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.64198%;
+    clear: none;
+  }
+  .speaker--wrapper:nth-of-type(even) {
+    width: 41.15226%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.20576%;
+    clear: none;
+  }
+}
 .speaker--wrapper .speaker-avatar {
   border-radius: 300px;
   display: block;
