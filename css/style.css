@@ -496,30 +496,25 @@ header .header--event-info h1 {
 .registration {
   text-align: center;
 }
-.registration button {
+.registration a:hover {
+  text-decoration: none;
+}
+.registration a button {
   border-radius: 3px;
   box-shadow: #ccdae4 1px 1px 1px;
   background-color: #42769c;
+  display: inline;
+  color: white;
+  font-size: 1.2rem;
   border: none;
-  padding-top: 10px;
-  padding-right: 4px;
-  padding-bottom: 10px;
-  padding-left: 4px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
   cursor: pointer;
 }
-.registration button:hover {
+.registration a button:hover {
   background-color: #336b94;
-}
-.registration button a {
-  display: inline;
-  font-size: 1.4rem;
-  color: white;
-  padding-top: 10px;
-  padding-right: 30px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-}
-.registration button a:hover {
   color: #b8c9d7;
 }
 
