@@ -23,7 +23,8 @@ $mono: 'scp', 'Source Code Pro', Consolas, Monaco, 'Andale Mono', monospace;
 
 $color-me-badd: (
   primary: shade(#0075CC, 40%),
-  blue: #5091CD
+  blue: #5091CD,
+  pink: #e00074
 );
 
 $black: black(map-get($color-me-badd, primary));

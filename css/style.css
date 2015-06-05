@@ -567,6 +567,9 @@ header .header--event-info h1 {
 .speaker--wrapper p {
   margin: 0px auto;
 }
+.speaker--wrapper .speaker--company a {
+  color: #ef7fb9;
+}
 
 .our-generous-friends .section--inner-wrapper {
   max-width: 800px;

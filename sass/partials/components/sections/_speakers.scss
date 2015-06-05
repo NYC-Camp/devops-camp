@@ -31,4 +31,9 @@
   p {
     margin: 0px auto;
   }
+  .speaker--company {
+    a {
+      color: tint(map-get($color-me-badd, pink), 50%);
+    }
+  }
 }
