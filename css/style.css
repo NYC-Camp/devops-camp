@@ -260,7 +260,7 @@ footer {
 }
 .section--inner-wrapper h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .section--inner-wrapper .tba--wrapper {
   text-align: center;
@@ -522,19 +522,26 @@ header .header--event-info h1 {
   text-align: center;
   margin-bottom: 26px;
 }
-@media (min-width: 43.75em) {
-  .speaker--wrapper:nth-of-type(odd) {
-    width: 41.15226%;
+@media (min-width: 47.5em) {
+  .speaker--wrapper:nth-of-type(1n) {
+    width: 29.06977%;
     float: left;
     margin-right: -100%;
-    margin-left: 8.64198%;
+    margin-left: 6.10465%;
     clear: none;
   }
-  .speaker--wrapper:nth-of-type(even) {
-    width: 41.15226%;
+  .speaker--wrapper:nth-of-type(2n) {
+    width: 29.06977%;
     float: left;
     margin-right: -100%;
-    margin-left: 50.20576%;
+    margin-left: 35.46512%;
+    clear: none;
+  }
+  .speaker--wrapper:nth-of-type(3n) {
+    width: 29.06977%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 64.82558%;
     clear: none;
   }
 }
@@ -542,7 +549,12 @@ header .header--event-info h1 {
   border-radius: 300px;
   display: block;
   margin: .5em auto;
-  max-width: 140px;
+  max-width: 200px;
+}
+@media (min-width: 47.5em) and (max-width: 62.4375em) {
+  .speaker--wrapper .speaker-avatar {
+    max-width: 140px;
+  }
 }
 @media (min-width: 62.5em) {
   .speaker--wrapper .speaker-avatar {
