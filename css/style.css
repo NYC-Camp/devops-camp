@@ -573,6 +573,7 @@ header .header--event-info h1 {
 }
 .speaker--wrapper .speaker-avatar {
   border-radius: 300px;
+  box-shadow: #b2c7d7 0px 0px 2px;
   display: block;
   margin: .5em auto;
   max-width: 200px;

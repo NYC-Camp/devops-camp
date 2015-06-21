@@ -38,6 +38,7 @@
   }
   .speaker-avatar {
     @include border-radius(300px);
+    @include box-shadow(tint(map-get($color-me-badd, primary), 70%) 0px 0px 2px);
     display: block;
     margin: .5em auto;
     max-width: 200px;
