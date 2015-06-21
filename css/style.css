@@ -584,6 +584,9 @@ header .header--event-info h1 {
     max-width: 200px;
   }
 }
+.speaker--wrapper .speaker-avatar.steven-merrill {
+  margin-bottom: 12px;
+}
 .speaker--wrapper h4 {
   margin-bottom: 10px;
 }
