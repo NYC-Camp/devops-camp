@@ -1,0 +1,37 @@
+
+.talks-wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+  background-color: tint(map-get($color-me-badd, primary), 90%);
+  padding: 20px;
+  h2 {
+    border-bottom: 1px solid tint(map-get($color-me-badd, primary), 60%);
+    padding-bottom: 20px;
+  }
+  p {
+    margin-left: 0;
+  }
+  strong {
+    &.three {
+      margin-right: 16px;
+    }
+    &.four {
+      margin-right: 6px;
+    }
+  }
+  li {
+    margin-bottom: 10px;
+    a {
+      @include breakpoint(max-width 690px) {
+        max-width: 70%;
+      }
+    }
+  }
+  em {
+    &:not(.lunch) {
+      display: block;
+      padding-left: 60px;
+    }
+
+  }
+}
