@@ -18,8 +18,7 @@
     }
     &:nth-of-type(2),
     &:nth-of-type(5),
-    &:nth-of-type(8),
-    &:nth-of-type(10) {
+    &:nth-of-type(8) {
       @include grid-span(4, 5, $gutter: 0);
     }
     &:nth-of-type(3),
@@ -28,7 +27,12 @@
       @include grid-span(4, 9, $gutter: 0);
     }
     &:nth-of-type(10) {
-      clear: both;
+      @include grid-span(4, 3, $gutter: 0);
+      clear: right;
+    }
+    &:nth-of-type(11) {
+      @include grid-span(4, 7, $gutter: 0);
+      clear: right;
     }
   }
   text-align: center;

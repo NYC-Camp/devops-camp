@@ -548,7 +548,7 @@ header .header--event-info h1 {
     clear: none;
     clear: right;
   }
-  .speaker--wrapper:nth-of-type(2), .speaker--wrapper:nth-of-type(5), .speaker--wrapper:nth-of-type(8), .speaker--wrapper:nth-of-type(10) {
+  .speaker--wrapper:nth-of-type(2), .speaker--wrapper:nth-of-type(5), .speaker--wrapper:nth-of-type(8) {
     width: 33.33333%;
     float: left;
     margin-right: -100%;
@@ -563,7 +563,20 @@ header .header--event-info h1 {
     clear: none;
   }
   .speaker--wrapper:nth-of-type(10) {
-    clear: both;
+    width: 33.33333%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.66667%;
+    clear: none;
+    clear: right;
+  }
+  .speaker--wrapper:nth-of-type(11) {
+    width: 33.33333%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50%;
+    clear: none;
+    clear: right;
   }
 }
 @media (min-width: 47.5em) {
