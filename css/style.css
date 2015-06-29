@@ -616,28 +616,19 @@ header .header--event-info h1 {
 }
 @media (min-width: 50em) {
   .our-generous-friends .presented-by {
-    width: 31.25%;
+    width: 25%;
     float: left;
     margin-right: -100%;
-    margin-left: 0;
+    margin-left: 20.83333%;
     clear: none;
   }
 }
 @media (min-width: 50em) {
   .our-generous-friends .sponsors {
-    width: 31.25%;
+    width: 25%;
     float: left;
     margin-right: -100%;
-    margin-left: 34.375%;
-    clear: none;
-  }
-}
-@media (min-width: 50em) {
-  .our-generous-friends .benefiting {
-    width: 31.25%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 54.16667%;
     clear: none;
   }
 }
