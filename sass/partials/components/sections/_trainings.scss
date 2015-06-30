@@ -1,0 +1,14 @@
+
+#training {
+  margin-bottom: 36px;
+  .trainings {
+    li {
+      &:first-of-type {
+        margin-bottom: 20px;
+      }
+      a {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

@@ -639,6 +639,16 @@ header .header--event-info h1 {
   }
 }
 
+#training {
+  margin-bottom: 36px;
+}
+#training .trainings li:first-of-type {
+  margin-bottom: 20px;
+}
+#training .trainings li a {
+  font-size: 1.8rem;
+}
+
 .talks-wrapper {
   max-width: 760px;
   margin: 0 auto;
