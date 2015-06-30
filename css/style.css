@@ -548,12 +548,13 @@ header .header--event-info h1 {
     clear: none;
     clear: right;
   }
-  .speaker--wrapper:nth-of-type(2), .speaker--wrapper:nth-of-type(5), .speaker--wrapper:nth-of-type(8), .speaker--wrapper:nth-of-type(11) {
+  .speaker--wrapper:nth-of-type(2), .speaker--wrapper:nth-of-type(5), .speaker--wrapper:nth-of-type(8), .speaker--wrapper:nth-of-type(11), .speaker--wrapper:nth-of-type(13) {
     width: 33.33333%;
     float: left;
     margin-right: -100%;
     margin-left: 33.33333%;
     clear: none;
+    clear: right;
   }
   .speaker--wrapper:nth-of-type(3), .speaker--wrapper:nth-of-type(6), .speaker--wrapper:nth-of-type(9), .speaker--wrapper:nth-of-type(12) {
     width: 33.33333%;
@@ -587,6 +588,11 @@ header .header--event-info h1 {
 }
 .speaker--wrapper .speaker-avatar.steven-merrill {
   margin-bottom: 12px;
+}
+@media (min-width: 62.5em) {
+  .speaker--wrapper .speaker-avatar.matt-korostoff {
+    max-width: 184px;
+  }
 }
 .speaker--wrapper h4 {
   margin-bottom: 10px;
