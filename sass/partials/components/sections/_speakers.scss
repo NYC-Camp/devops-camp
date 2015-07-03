@@ -14,7 +14,8 @@
     &:nth-of-type(4),
     &:nth-of-type(7),
     &:nth-of-type(10),
-    &:nth-of-type(13) {
+    &:nth-of-type(13),
+    &:nth-of-type(16) {
       @include grid-span(4, 1, $gutter: 0);
       clear: right;
     }
@@ -23,7 +24,7 @@
     &:nth-of-type(8),
     &:nth-of-type(11),
     &:nth-of-type(14),
-    &:nth-of-type(16) {
+    &:nth-of-type(17) {
       @include grid-span(4, 5, $gutter: 0);
       clear: right;
     }
@@ -31,7 +32,8 @@
     &:nth-of-type(6),
     &:nth-of-type(9),
     &:nth-of-type(12),
-    &:nth-of-type(15) {
+    &:nth-of-type(15),
+    &:nth-of-type(18) {
       @include grid-span(4, 9, $gutter: 0);
     }
 
