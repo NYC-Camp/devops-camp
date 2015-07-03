@@ -28,5 +28,10 @@
     @include breakpoint($our-big-break) {
       @include grid-span(1, 3, (.5 1 1 .5));
     }
+    img {
+      @include breakpoint(max-width 400px) {
+        max-width: 200px;
+      }
+    }
   }
 }

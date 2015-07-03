@@ -633,6 +633,11 @@ header .header--event-info h1 {
     clear: none;
   }
 }
+@media (max-width: 25em) {
+  .our-generous-friends .sponsors img {
+    max-width: 200px;
+  }
+}
 
 #training {
   margin-bottom: 36px;
