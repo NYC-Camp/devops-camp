@@ -37,6 +37,16 @@
       @include grid-span(4, 9, $gutter: 0);
     }
 
+    &:nth-of-type(19) {
+      @include grid-span(4, 3, $gutter: 0);
+      clear: right;
+    }
+
+    &:nth-of-type(20) {
+      @include grid-span(4, 7, $gutter: 0);
+      clear: right;
+    }
+
   }
   text-align: center;
   margin-bottom: 52px;
