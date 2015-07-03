@@ -664,7 +664,7 @@ header .header--event-info h1 {
 }
 
 .talks-wrapper {
-  max-width: 760px;
+  max-width: 816px;
   margin: 0 auto;
   background-color: #e5ecf1;
   padding: 20px;
@@ -676,11 +676,14 @@ header .header--event-info h1 {
 .talks-wrapper p {
   margin-left: 0;
 }
-.talks-wrapper strong.three {
-  margin-right: 16px;
+.talks-wrapper strong.small {
+  margin-right: 39px;
 }
-.talks-wrapper strong.four {
-  margin-right: 6px;
+.talks-wrapper strong.medium {
+  margin-right: 30px;
+}
+.talks-wrapper strong.large {
+  margin-right: 18px;
 }
 .talks-wrapper li {
   margin-bottom: 10px;
@@ -692,7 +695,7 @@ header .header--event-info h1 {
 }
 .talks-wrapper em:not(.lunch) {
   display: block;
-  padding-left: 60px;
+  margin-left: 166px;
 }
 
 #back-to-top {

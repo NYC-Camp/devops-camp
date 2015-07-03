@@ -1,6 +1,6 @@
 
 .talks-wrapper {
-  max-width: 760px;
+  max-width: 816px;
   margin: 0 auto;
   background-color: tint(map-get($color-me-badd, primary), 90%);
   padding: 20px;
@@ -12,11 +12,14 @@
     margin-left: 0;
   }
   strong {
-    &.three {
-      margin-right: 16px;
+    &.small {
+      margin-right: 39px;
     }
-    &.four {
-      margin-right: 6px;
+    &.medium {
+      margin-right: 30px;
+    }
+    &.large {
+      margin-right: 18px;
     }
   }
   li {
@@ -30,8 +33,7 @@
   em {
     &:not(.lunch) {
       display: block;
-      padding-left: 60px;
+      margin-left: 166px;
     }
-
   }
 }
