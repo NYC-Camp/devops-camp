@@ -673,29 +673,61 @@ header .header--event-info h1 {
   border-bottom: 1px solid #99b5c9;
   padding-bottom: 20px;
 }
+@media (max-width: 31.1875em) {
+  .talks-wrapper h3,
+  .talks-wrapper h4 {
+    text-align: center;
+  }
+}
+.talks-wrapper h4 {
+  font-size: 1.2rem;
+}
 .talks-wrapper p {
   margin-left: 0;
 }
-.talks-wrapper strong.small {
-  margin-right: 39px;
+@media (max-width: 31.1875em) {
+  .talks-wrapper strong {
+    display: block;
+    text-align: center;
+  }
 }
-.talks-wrapper strong.medium {
-  margin-right: 30px;
-}
-.talks-wrapper strong.large {
-  margin-right: 18px;
+@media (min-width: 31.1875em) {
+  .talks-wrapper strong.small {
+    margin-right: 39px;
+  }
+  .talks-wrapper strong.medium {
+    margin-right: 30px;
+  }
+  .talks-wrapper strong.large {
+    margin-right: 18px;
+  }
 }
 .talks-wrapper li {
   margin-bottom: 10px;
 }
-@media (max-width: 43.125em) {
+@media (max-width: 31.1875em) {
+  .talks-wrapper li {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 27.4375em) and (max-width: 43.6875em) {
+  .talks-wrapper li a {
+    max-width: 58%;
+  }
+}
+@media (min-width: 43.75em) and (max-width: 61.25em) {
   .talks-wrapper li a {
     max-width: 70%;
   }
 }
 .talks-wrapper em:not(.lunch) {
   display: block;
-  margin-left: 166px;
+}
+@media (min-width: 31.25em) {
+  .talks-wrapper em:not(.lunch) {
+    margin-left: 166px;
+  }
 }
 
 #back-to-top {

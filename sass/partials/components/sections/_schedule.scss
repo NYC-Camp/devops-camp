@@ -8,24 +8,46 @@
     border-bottom: 1px solid tint(map-get($color-me-badd, primary), 60%);
     padding-bottom: 20px;
   }
+  h3,
+  h4 {
+    @include breakpoint(max-width 499px) {
+      text-align: center;
+    }
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
   p {
     margin-left: 0;
   }
   strong {
-    &.small {
-      margin-right: 39px;
+    @include breakpoint(max-width 499px) {
+      display: block;
+      text-align: center;
     }
-    &.medium {
-      margin-right: 30px;
-    }
-    &.large {
-      margin-right: 18px;
+    @include breakpoint(499px) {
+      &.small {
+        margin-right: 39px;
+      }
+      &.medium {
+        margin-right: 30px;
+      }
+      &.large {
+        margin-right: 18px;
+      }
     }
   }
   li {
     margin-bottom: 10px;
+    @include breakpoint(max-width 499px) {
+      text-align: center;
+      margin-bottom: 30px;
+    }
     a {
-      @include breakpoint(max-width 690px) {
+      @include breakpoint(439px 699px) {
+        max-width: 58%;
+      }
+      @include breakpoint(700px 980px) {
         max-width: 70%;
       }
     }
@@ -33,7 +55,9 @@
   em {
     &:not(.lunch) {
       display: block;
-      margin-left: 166px;
+      @include breakpoint(500px) {
+        margin-left: 166px;
+      }
     }
   }
 }
