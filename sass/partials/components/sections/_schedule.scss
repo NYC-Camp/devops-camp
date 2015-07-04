@@ -45,7 +45,7 @@
     }
     a {
       @include breakpoint(439px 699px) {
-        max-width: 58%;
+        max-width: 56%;
       }
       @include breakpoint(700px 980px) {
         max-width: 70%;

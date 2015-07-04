@@ -640,6 +640,9 @@ header .header--event-info h1 {
     clear: none;
   }
 }
+.our-generous-friends .presented-by a {
+  margin-top: 18px;
+}
 @media (min-width: 50em) {
   .our-generous-friends .sponsors {
     width: 25%;
@@ -713,7 +716,7 @@ header .header--event-info h1 {
 }
 @media (min-width: 27.4375em) and (max-width: 43.6875em) {
   .talks-wrapper li a {
-    max-width: 58%;
+    max-width: 56%;
   }
 }
 @media (min-width: 43.75em) and (max-width: 61.25em) {
