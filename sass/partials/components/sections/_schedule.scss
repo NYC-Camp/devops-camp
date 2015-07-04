@@ -25,7 +25,7 @@
       display: block;
       text-align: center;
     }
-    @include breakpoint(499px) {
+    @include breakpoint(500px) {
       &.small {
         margin-right: 39px;
       }
