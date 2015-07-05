@@ -1,9 +1,12 @@
 
 #training {
   margin-bottom: 36px;
+  h2 {
+    margin-bottom: 20px;
+  }
   .trainings {
     li {
-      &:first-of-type {
+      &:not(:last-of-type) {
         margin-bottom: 20px;
       }
       a {
