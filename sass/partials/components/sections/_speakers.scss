@@ -15,7 +15,8 @@
     &:nth-of-type(7),
     &:nth-of-type(10),
     &:nth-of-type(13),
-    &:nth-of-type(16) {
+    &:nth-of-type(16),
+    &:nth-of-type(19) {
       @include grid-span(4, 1, $gutter: 0);
       clear: right;
     }
@@ -24,7 +25,8 @@
     &:nth-of-type(8),
     &:nth-of-type(11),
     &:nth-of-type(14),
-    &:nth-of-type(17) {
+    &:nth-of-type(17),
+    &:nth-of-type(20) {
       @include grid-span(4, 5, $gutter: 0);
       clear: right;
     }
@@ -33,18 +35,9 @@
     &:nth-of-type(9),
     &:nth-of-type(12),
     &:nth-of-type(15),
-    &:nth-of-type(18) {
+    &:nth-of-type(18),
+    &:nth-of-type(21) {
       @include grid-span(4, 9, $gutter: 0);
-    }
-
-    &:nth-of-type(19) {
-      @include grid-span(4, 3, $gutter: 0);
-      clear: right;
-    }
-
-    &:nth-of-type(20) {
-      @include grid-span(4, 7, $gutter: 0);
-      clear: right;
     }
 
   }
@@ -72,7 +65,7 @@
     }
   }
   h4 {
-    margin-bottom: 10px;
+    margin-bottom: 4px;
   }
   p {
     margin: 0px auto;
