@@ -548,7 +548,7 @@ header .header--event-info h1 {
     clear: none;
     clear: right;
   }
-  .speaker--wrapper:nth-of-type(2), .speaker--wrapper:nth-of-type(5), .speaker--wrapper:nth-of-type(8), .speaker--wrapper:nth-of-type(11), .speaker--wrapper:nth-of-type(14), .speaker--wrapper:nth-of-type(17), .speaker--wrapper:nth-of-type(20) {
+  .speaker--wrapper:nth-of-type(2), .speaker--wrapper:nth-of-type(5), .speaker--wrapper:nth-of-type(8), .speaker--wrapper:nth-of-type(11), .speaker--wrapper:nth-of-type(14), .speaker--wrapper:nth-of-type(17), .speaker--wrapper:nth-of-type(20), .speaker--wrapper:nth-of-type(22) {
     width: 33.33333%;
     float: left;
     margin-right: -100%;

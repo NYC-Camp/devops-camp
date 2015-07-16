@@ -26,7 +26,8 @@
     &:nth-of-type(11),
     &:nth-of-type(14),
     &:nth-of-type(17),
-    &:nth-of-type(20) {
+    &:nth-of-type(20),
+    &:nth-of-type(22) {
       @include grid-span(4, 5, $gutter: 0);
       clear: right;
     }
