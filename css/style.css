@@ -665,7 +665,8 @@ header .header--event-info h1 {
 }
 @media (max-width: 31.1875em) {
   .talks-wrapper h3,
-  .talks-wrapper h4 {
+  .talks-wrapper h4,
+  .talks-wrapper p {
     text-align: center;
   }
 }

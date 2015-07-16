@@ -9,7 +9,8 @@
     padding-bottom: 20px;
   }
   h3,
-  h4 {
+  h4,
+  p {
     @include breakpoint(max-width 499px) {
       text-align: center;
     }
